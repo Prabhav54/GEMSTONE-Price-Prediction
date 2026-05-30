@@ -38,3 +38,47 @@ GEMSTONE-Price-Prediction/
 ├── README.md           # Project documentation
 ├── requirements.txt    # Project dependencies
 └── setup.py            # Package installation setup
+
+
+🛠️ Tech Stack
+Language: Python
+
+Data Manipulation & Analysis: Pandas, NumPy
+
+Data Visualization: Matplotlib, Seaborn
+
+Machine Learning: Scikit-Learn, XGBoost
+
+Environment & Package Management: setuptools
+
+🚀 Getting Started
+Prerequisites
+Ensure you have Python 3.8+ installed. It is highly recommended to use an isolated virtual environment.
+
+Installation
+Clone the repository:
+
+Bash
+   git clone [https://github.com/Prabhav54/GEMSTONE-Price-Prediction.git](https://github.com/Prabhav54/GEMSTONE-Price-Prediction.git)
+   cd GEMSTONE-Price-Prediction
+Set up a virtual environment:
+
+Bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+Install dependencies:
+
+Bash
+   pip install -r requirements.txt
+   pip install -e .  # Installs the local src/ package via setup.py
+Usage
+To train the model and generate the prediction artifacts, run the main training pipeline from the source directory:
+
+Bash
+python src/pipelines/training_pipeline.py
+(Note: Adjust the script path based on your exact src folder structure).
+
+🧑‍💻 About the Developer
+Prabhav Khare 3rd-year Chemical Engineering Student @ National Institute of Technology (NIT) Rourkela
+
+Passionate about bridging core engineering with advanced computational techniques. Actively building automated pipelines, developing data science solutions, and exploring the intersection of machine learning, impactful UI/UX design, and complex problem-solving.
